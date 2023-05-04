@@ -12,7 +12,7 @@ const express = require('express');
 const PORT = 8080;
 const HOST = '0.0.0.0';
 const OS = require('os');
-const ENV = 'DEV';
+const ENV = 'Superior Tech';
 
 
 // App
@@ -43,7 +43,7 @@ function getPage(message) {
     + "}\n"
     + "\n"
     + ".bgimg {\n"
-    + "  background-image: url('https://www.w3schools.com/w3images/forestbridge.jpg');\n"
+    + "  background-image: url('https://pixabay.com/photos/sea-water-ocean-travel-beach-3243357/');\n"
     + "  height: 100%;\n"
     + "  background-position: center;\n"
     + "  background-size: cover;\n"
@@ -85,7 +85,7 @@ function getPage(message) {
     + "    <p>ENVIRONMENT: " + ENV + "</p>\n"
     + "  </div>\n"
     + "  <div class=\"middle\">\n"
-    + "    <h1>Host/container name</h1>\n"
+    + "    <h1>Host/Superior IT</h1>\n"
     + "    <hr>\n"
     + "    <p>" + OS.hostname() + "</p>\n"
     + "  </div>\n"
