@@ -15,8 +15,8 @@ spec:
         app: primuslearning
     spec:
       containers:
-        - name: primuslearning
-          image: 444187421781.dkr.ecr.us-east-1.amazonaws.com/primuslearning:$IMAGE_TAG
+        - name: sumon
+          image: 605060434181.dkr.ecr.us-east-1.amazonaws.com/sumon:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
