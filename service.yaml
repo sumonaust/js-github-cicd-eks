@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: sumon
+  name: primuslearning
 spec:
   selector:
-    app: sumon
+    app: primuslearning
   ports:
     - protocol: TCP
       port: 80
