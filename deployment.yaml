@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: primuslearning
+  name: sumon
   labels:
-    app: primuslearning
+    app: sumon
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: primuslearning
+      app: sumon
   template:
     metadata:
       labels:
-        app: primuslearning
+        app: sumon
     spec:
       containers:
-        - name: primuslearning
-          image: 096961528614.dkr.ecr.us-east-1.amazonaws.com/primuslearning:1.2
+        - name: sumon
+          image: 096961528614.dkr.ecr.us-east-1.amazonaws.com/sumon:1.3
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
