@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: primuslearning
+  name: sumon
   labels:
-    app: primuslearning
+    app: sumon
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: primuslearning
+      app: sumon
   template:
     metadata:
       labels:
-        app: primuslearning
+        app: sumon
     spec:
       containers:
         - name: sumon
