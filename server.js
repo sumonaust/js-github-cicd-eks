@@ -43,7 +43,7 @@ function getPage(message) {
     + "}\n"
     + "\n"
     + ".bgimg {\n"
-    + "  background-image: url('https://pixabay.com/photos/sea-water-ocean-travel-beach-3243357/');\n"
+    + "  background-image: url('https://www.w3schools.com/w3images/sailboat.jpg');\n"
     + "  height: 100%;\n"
     + "  background-position: center;\n"
     + "  background-size: cover;\n"
