@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: sumon
-          image: 877150436821.dkr.ecr.us-east-1.amazonaws.com/sumon:1.2
+          image: 831681340916.dkr.ecr.us-east-1.amazonaws.com/sumon:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
