@@ -82,7 +82,7 @@ function getPage(message) {
     + "\n"
     + "<div class=\"bgimg\">\n"
     + "  <div class=\"middle\">\n"
-    + "    <h1>Welcome Bangladesh</h1>\n"
+    + "    <h1>Welcome to Bangladesh</h1>\n"
     + "  </div>\n"
     + "</div>\n"
     + "\n"
